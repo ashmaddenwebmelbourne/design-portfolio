@@ -45,6 +45,12 @@ img {
     padding-right: 5vw;
 }
 
+.outer-container-2 {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: block;
+}
+
 .container {
     width: 100%;
 }
@@ -325,6 +331,10 @@ img {
 /* Desktop */
 @media only screen and (min-width: 1440px) {
 
+    .container {
+        max-width: 1300px;
+    }
+
     .slide {
         width: 33.3333333vw;
     }
@@ -332,6 +342,14 @@ img {
     .outer-container {
         padding-left: 20vw;
         padding-right: 20vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .outer-container-2 {
+        padding-left: 20vw;
+        padding-right: 20vw;
+        display: block;
     }
 
     .grid-design {
@@ -441,6 +459,12 @@ img {
     .outer-container {
         padding-left: 10vw;
         padding-right: 10vw;
+    }
+
+    .outer-container-2 {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        display: block;
     }
 
     .grid-design {
